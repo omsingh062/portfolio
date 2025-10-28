@@ -6,6 +6,7 @@ const Projects = () => {
   const projectList = [
     {
       img: project1,
+      href: "https://weather-i9994ivbp-omsingh062s-projects.vercel.app/",
       title: "Weather App",
       description:
         "A responsive weather app using OpenWeather API, HTML, CSS, and JavaScript.",
