@@ -11,13 +11,13 @@ const About = () => {
 
       <h3>Education</h3>
       <ul>
-        <li>B.Sc in Computer Science</li>
-        <li>MCA - Ongoing</li>
+        <li>B.Sc in Information Technology</li>
+        <li>CGPA:9.27</li>
       </ul>
 
       <h3>Work Experience</h3>
       <ul>
-        <li>Frontend Developer Intern at ABC Company</li>
+        <li>Frontend Developer Intern codexintern</li>
       </ul>
 
       <h3>Hobbies</h3>
