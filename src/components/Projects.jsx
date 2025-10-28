@@ -17,7 +17,7 @@ const Projects = () => {
       title: "To-Do List App",
       description:
         "An interactive to-do list web app with task management features.",
-      link: "https://todo-app-omega-psi.vercel.app/",
+      link: "https://todo-app-git-main-omsingh062s-projects.vercel.app/",
     },
     {
       img: gamingHub,
