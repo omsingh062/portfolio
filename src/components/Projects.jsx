@@ -1,7 +1,7 @@
 import React from "react";
 import project1 from "../images/project1.png";
 import project2 from "../images/project2.png";
-import gamingHub from "../images/gamingHub.png";
+import project3 from "../images/project3.png  ";
 
 const Projects = () => {
   const projectList = [
@@ -20,7 +20,7 @@ const Projects = () => {
       link: "https://todo-app-git-main-omsingh062s-projects.vercel.app/",
     },
     {
-      img: gamingHub,
+      img: project3,
       title: "Gaming Hub 🎮",
       description:
         "A gaming website that includes fun mini-games like Tic Tac Toe, Rock Paper Scissors, and more — all in one stylish hub.",
