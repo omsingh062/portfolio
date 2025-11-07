@@ -41,7 +41,7 @@ body {
   scroll-behavior: smooth;
 }
 
-/* ========== HEADER (COMMON) ========== */
+/* ========== HEADER ========== */
 header {
   position: sticky;
   top: 0;
@@ -236,8 +236,29 @@ section h2::after {
 
 .project-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, 1fr); /* Default: 2 columns */
   gap: 2rem;
+}
+
+/* Large screens → 4 columns */
+@media screen and (min-width: 1200px) {
+  .project-gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Medium screens → 2 columns */
+@media screen and (max-width: 1024px) {
+  .project-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Small screens → 1 column */
+@media screen and (max-width: 768px) {
+  .project-gallery {
+    grid-template-columns: 1fr;
+  }
 }
 
 .project-card {
@@ -333,10 +354,6 @@ section h2::after {
 @media screen and (max-width: 768px) {
   #hero h1 {
     font-size: 2rem;
-  }
-
-  .project-gallery {
-    grid-template-columns: 1fr;
   }
 }
 

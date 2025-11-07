@@ -2,6 +2,7 @@ import React from "react";
 import project1 from "../images/project1.png";
 import project2 from "../images/project2.png";
 import project3 from "../images/project3.png";
+import project4 from "../images/project4.png"; // ✅ Add this
 
 const Projects = () => {
   const projectList = [
@@ -23,8 +24,14 @@ const Projects = () => {
       img: project3,
       title: "Gaming Hub 🎮",
       description:
-        "A gaming website that includes fun mini-games like Tic Tac Toe, Rock Paper Scissors, and more — all in one stylish hub.",
+        "A gaming website that includes mini-games like Tic Tac Toe, Rock Paper Scissors, and more — all in one stylish hub.",
       link: "https://gaming-hubs.onrender.com/",
+    },
+    {
+      img: project4,
+      title: "Guship 💬",
+      description: `Guship is a real-time chat app built with React, Node.js, Express, MongoDB, and Socket.io. It supports instant messaging, online status, and a smooth, secure user experience.`,
+      link: "https://guships.onrender.com",
     },
   ];
 
